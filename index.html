@@ -1,0 +1,536 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>reveal.js – The HTML Presentation Framework</title>
+
+    <meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+    <meta name="author" content="Hakim El Hattab">
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/black.css" id="theme">
+    <link rel="stylesheet" href="css/custom.css">
+
+    <!-- Code syntax highlighting -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+
+    <!-- Printing and PDF exports -->
+    <script>
+        var link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+        document.getElementsByTagName('head')[0].appendChild(link);
+    </script>
+
+    <!--[if lt IE 9]>
+    <script src="lib/js/html5shiv.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+<div class="reveal">
+
+    <!-- Any section element inside of this container is displayed as a slide -->
+    <div class="slides">
+        <section>
+            <section data-markdown class="small">
+                <script type="text/template">
+                    ###Philipp Bayer
+                    ![](cv.jpeg "Picture")
+
+                    ####Allgemeine Daten
+                    ---
+                    Geboren: 09.09.1982
+
+                    E-Mail: p.bayer AT freemail.hu
+                </script>
+            </section>
+            <section class="small">
+                <h4>Ausbildung</h4>
+                <hr/>
+                <table class="small     ausbildung">
+                    <tr>
+                        <td>2005 - 2009</td>
+                        <td>Master Wirtschaftsingenieurwesen Informatik</td>
+                        <td>Universität Wien</td>
+                    </tr>
+                    <tr>
+                        <td>2001 - 2005</td>
+                        <td>Bachelor Medieninformatik</td>
+                        <td>Universität Wien</td>
+                    </tr>
+                    <tr>
+                        <td>1992 - 2001</td>
+                        <td>Matura/Abitur</td>
+                        <td>Thomas Mann Gymnasium Budapest</td>
+                    </tr>
+                </table>
+
+                <h4>Zertifizierungen</h4>
+                <hr/>
+                <table class="sprache">
+                    <tr>
+                        <td>CPRE</td>
+                        <td>Foundation Level</td>
+                    </tr>
+                    <tr>
+                        <td>Innendienst Versicherung</td>
+                        <td>Mit Auszeichnung bestanden</td>
+                    </tr>
+                    <tr>
+                        <td>TOEIC</td>
+                        <td>745 Punkte</td>
+                    </tr>
+                </table>
+
+                <h4>Sprachen</h4>
+                <hr/>
+                <table class="sprache">
+                    <tr>
+                        <td>Deutsch</td>
+                        <td>Muttersprache</td>
+                    </tr>
+                    <tr>
+                        <td>Ungarisch</td>
+                        <td>Fließend</td>
+                    </tr>
+                    <tr>
+                        <td>Englisch</td>
+                        <td>Fließend</td>
+                    </tr>
+                </table>
+            </section>
+        </section>
+
+
+        <section>
+            <section data-markdown class="small">
+                <script type="text/template">
+                    ###Technologien
+
+                    ####Sprachen
+                    ---
+                    Java, Scala, Groovy, JavaScript, Typescript
+                    <span class="spacebot"/>
+
+                    ####Build-Tools
+                    ---
+                    Maven, Gradle, Gulp
+                    <span class="spacebot"/>
+
+                    ####Frameworks
+                    ---
+                    Spring, JEE 6, CDI, JPA, QueryDSL, JSF, PrimeFaces, RichFaces, Gatling, JUnit, CDI-Unit, Spock
+                    <span class="spacebot"/>
+
+                    ####Datenbanken
+                    ---
+                    Oracle, DB2, HSQLDB, Neo4j, MongoDb
+                </script>
+            </section>
+            <section data-markdown class="small">
+                <script type="text/template">
+                    ###Fachartikel
+
+                    ####Java Magazin
+                    ---
+                    **_Ausgabe 04/2015:_**
+
+                    Qualitätssicherung im Container: Leichtgewichtiges Testen von CDI-Komponenten
+
+                    [Vollständiger Artikel](https://jaxenter.de/qualitaetssicherung-im-container-leichtgewichtige-unit-und-integrationstests-von-cdi-komponenten-19903)
+
+                    <span class="spacebot"/>
+                    ---
+                    **_Ausgabe 08/2014:_**
+
+                    Frischzellenkur: Moderne Weboberflächen mit JavaServer Faces und Bootstrap
+
+                    [Artikel Teaser](https://jaxenter.de/frischzellenkur-991)
+
+                    <span class="spacebot"/>
+                    ####Blog
+                    ---
+                    [Awesome Scala](http://awesomescala.wordpress.com/)
+                </script>
+            </section>
+        </section>
+
+
+        <section>
+            <section data-markdown class="small">
+                <script type="text/template">
+                    ##Projekte bei Bridging IT
+
+                    ###AAV
+                    #####Branche:
+                    Finanz
+
+                    #####Technologien:
+                    CouchDb, MongoDb, Spring Data Rest, Spring Data MongoDb, Gulp, Gradle, Docker, Gatling, Typescript
+
+                    #####Dauer:
+                    2 Monate
+
+                    #####Teamgröße:
+                    8 Entwickler
+
+                    #####Projektmethodik:
+                    Scrum
+
+                    #####Tätigkeiten:
+                    Evaluierung und PoC von Backendtechnologien für eine mobile Anwendung. Schreiben von Clients in Typescript
+                    welche auf das Backend zugreifen und Benutzerdaten synchronisieren sowie die Benutzerdaten verschlüsseln.
+                    Durchführung von Lasttests und Dokumentation der Ergebnisse.
+
+                </script>
+            </section>
+            <section data-markdown class="small">
+                <script type="text/template">
+                    ###Fonex
+                    #####Branche:
+                    Finanz
+
+                    #####Technologien:
+                    Spring, JSF, PrimeFaces, Hibernate, QueryDSL, Oracle 11, Maven
+
+                    #####Dauer:
+                    6 Monate
+
+                    #####Teamgröße:
+                    2 Entwickler
+
+                    #####Projektmethodik:
+                    -
+
+                    #####Tätigkeiten:
+                    Implementierung einer Intranetapplikation, welche aus zugelieferten Daten aufgrund der EBA
+                    Richtlinien Kreditgeschäfte mit einem Partner prüft und einstuft. Die Anwender können Daten suchen,
+                    berabeiten und historisieren. Die Intranetapplikation basierte auf Spring, JSF 2.2 und Primefaces 5.0.
+                    Zur Erstellung von Datenbankabfragen wurde QueryDSL genutzt.Ausarbeitung eines Berechtigungskonzeptes.
+                    Definition von Serviceschnittstellen für die Zuliefrung und den Abruf der Daten. Verfeinerung des
+                    Einstufungprozesses mit dem Fachbereich auf Grundlage eines Fachekonzeptes.
+                </script>
+            </section>
+            <section data-markdown class="small">
+                <script type="text/template">
+                    ###Prinect Software Center
+                    #####Branche:
+                    Druck
+
+                    #####Technologien:
+                    JEE 6, JSF 2.1, RichFaces 4, JPA 2.0, EJB 3.1, CDI, Hibernate 4, Rest, CDI-Unit, Arquillian,
+                    Oracle 11, JBoss EAP 6.2, Maven
+
+                    #####Teamgröße:
+                    2-3 Entwickler
+
+                    #####Dauer:
+                    6 Monate
+
+                    #####Projektmethodik:
+                    Wasserfall
+
+                    #####Tätigkeiten:
+                    Migration einer Legacy-Anwendung von JBoss 4, Seam und Richfaces 3.3 auf die JBoss EAP 6.2 Platform.
+                    Sichstellung der Qulaität durch Unit- und Integrationstests. Anschliesend Umsetzung von neuen Features
+                    in Absprache mit dem Fachbereich.
+                </script>
+            </section>
+            <section data-markdown class="small">
+                <script type="text/template">
+                    ###MDS
+                    #####Branche:
+                    Automobil
+
+                    #####Technologien:
+                    Spring, Vaadin, Hibernate, JUnit, Tomcat, Gradle
+
+                    #####Teamgröße:
+                    5 Entwickler
+
+                    #####Dauer:
+                    4 Monate
+
+                    #####Projektmethodik:
+                    Scrum
+
+                    #####Tätigkeiten:
+                    Weiterentwicklung einer Vaadin-basierten Webanwendung zur Planung, Durchführung und Nachbearbeitung
+                    von Besprechungen. Neben der Vorbereitung der Besprechungen und dem Agenda-Versand können Besprechungen
+                    mit der Webanwendung protokolliert, Maßnahmen erfasst und das dabei erstellte Protokoll als PDF an die
+                    Teilnehmer verschickt werden.
+                </script>
+            </section>
+            <section data-markdown class="small">
+                <script type="text/template">
+                    ###Health Buddy
+                    #####Branche:
+                    Tele-Medizin
+
+                    #####Technologien:
+                    Spring, Spring Data, Spring Security, Wicket, Hibernate, JBoss EAP 6.2, Maven
+
+                    #####Teamgröße:
+                    12 Entwickler
+
+                    #####Dauer:
+                    4 Monate
+
+                    #####Projektmethodik:
+                    Scrum
+
+                    #####Tätigkeiten:
+                    Unterstützung bei der Migration und Weiterentwicklung einer Spring- und Java-EE-basierten Webanwendung
+                    zur Verwaltung und Auswertung von auf Telemedizin-Endgeräten (Health Buddy) gesammelten Patienten- und
+                    Gesundheitsdaten.
+                </script>
+            </section>
+        </section>
+
+        <section>
+            <section data-markdown class="small">
+                <script type="text/template">
+                    ##Projekte bei Software & Friends
+
+                    ###Name auf Anfrage
+                    #####Branche:
+                    Finanzdienstleistungen
+
+                    #####Technologien:
+                    Apache Struts, Apache POI, Java Server Pages, Apache Commons, JavaScript, jQuery, Apache Tomcat,
+                    JUnit
+
+                    #####Dauer:
+                    4 Monate
+
+                    #####Teamgröße:
+                    10+ Entwickler
+
+                    #####Projektmethodik:
+                    Wasserfall
+
+                    #####Tätigkeiten:
+                    Webplattform über welche Steuerbürger ihre Steuerformulare online abgeben können. Hohe Sicherheits-
+                    und Qualitätsanforderungen. Implementierung von neuen Steuerformularen.
+                </script>
+                <script type="text/template">
+                    ###BEDB
+                    #####Branche:
+                    Tele-Medizin
+
+                    #####Technologien:
+                    Spring, Quartz, DbUnit, JUnit, Tomcat, Maven
+
+                    #####Dauer:
+                    3 Monate
+
+                    #####Teamgröße:
+                    4 Entwickler
+
+                    #####Projektmethodik:
+                    Wasserfall
+
+                    #####Tätigkeiten:
+                    Re-Implementierung eines bestehenden Backend-Systems, welches die Software und Update Verteilung für
+                    medizinische Endgeräte weltweit zentral verwaltet. Befüllung einer Datenbank aus einer Vielzahl von
+                    verschiedenen Quellen (andere Datenbanken, CSV-Dateien, etc.). Anbindung externer Systeme, welche die
+                    eigentliche Verteilung der Software und Updates durchführen und Informationen zur Software und den
+                    Endgeräten liefern.
+                </script>
+            </section>
+            <section>
+                <section data-markdown class="small">
+                    <script type="text/template">
+                        ##Projekte bei UNIQA Software Services
+
+                        ###U.KMS
+                        #####Branche:
+                        Versicherung
+
+                        #####Technologien:
+                        JSF 1.2, RichFaces 3.3, jQuery, iText, Apache POI, Jax-WS, Selenium, JUnit, HSQLDB,
+                        Postgres, WebSphere Application Server, Maven
+
+                        #####Dauer:
+                        8 Monate
+
+                        #####Teamgröße:
+                        5 Entwickler
+
+                        #####Projektmethodik:
+                        SCRUM
+
+                        #####Tätigkeiten:
+                        Pilotprojekt zur Evaluierung von JSF und RichFaces. Umsetzung eines CRM-Systems für Mitarbeiter
+                        der Versicherung. Anbindung an bestehende Systeme. Wichtige Anforderung war ein möglichst geringer
+                        Datenverkehr, um die Applikation auch für Außendienstmitarbeiter mit einer mobilen Internetverbindung
+                        nutzbar zu machen.
+                    </script>
+                </section>
+                    <script type="text/template">
+                        ###Extra
+                        #####Branche:
+                        Versicherung
+
+                        #####Technologien:
+                        Apache Struts, iText, EJB 3.0, JEE, DbUnit, JUnit, HSQLDB, IBM DB2, WebSphere Application
+                        Server, Maven
+
+                        #####Dauer:
+                        5 Jahre
+
+                        #####Teamgröße:
+                        2 Entwickler
+
+                        #####Projektmethodik:
+                        -
+
+                        #####Tätigkeiten:
+                        Wartung und Weiterentwicklung einer mandantenbasierten Webplattform mit welcher externe Rechtskanzleien
+                        Inkassofälle für Unternehmen abwickeln können. Erstellung, Befüllung und Speicherung von PDF-Formularen
+                        und deren Inhalten mittels iText. Anbindung an eine staatliche Schnittstelle über welche Daten direkt
+                        an die Gerichte gesendet, bzw. von diesen abgerufen werden können.
+                    </script>
+                </section>
+                <section data-markdown class="small">
+                    <script type="text/template">
+                        ###Formularmanagment
+                        #####Branche:
+                        Versicherung
+
+                        #####Technologien:
+                        JSF 1.2, RichFaces 3.3, jQuery, iText, EJB 3.0, Jax-WS, JEE, JPA 2.0, DbUnit, JUnit, HSQLDB,
+                        Postgres, WebSphere Application Server, Maven
+
+                        #####Dauer:
+                        9 Monate
+
+                        #####Teamgröße:
+                        3 Entwickler
+
+                        #####Projektmethodik:
+                        -
+
+                        #####Tätigkeiten:
+                        Re-Implementierung einer bestehenden Web-Plattform, mit welcher Kunden Formulare ausfüllen und
+                        speichern können. Befüllung von PDF-Formularen mit den eingegebenen Daten. Anbindung an ein
+                        zentrales CRM-System mittels JAX-WS aus welchem Daten in die Formulare übernommen werden können.
+                    </script>
+                </section>
+                <section data-markdown class="small">
+                    <script type="text/template">
+                        ###Einführung Maven und Sonar
+                        #####Branche:
+                        Versicherung
+
+                        #####Technologien:
+                        Maven, Sonargraph, Sonar
+
+                        #####Dauer:
+                        3 Monate
+
+                        #####Teamgröße:
+                        -
+
+                        #####Projektmethodik:
+                        -
+
+                        #####Tätigkeiten:
+                        Einführung und Schulung eines Continuous Build Systems. Einführung und Schulung von Qualitätsmetriken
+                        basierend auf Sonar. Unterstützung von Projekten bei der Umstellung auf Sonar, sowie Dokumentation und
+                        fortlaufende Evaluierung.
+                    </script>
+                </section>
+                <section data-markdown class="small">
+                    <script type="text/template">
+                        ###Einführung Maven und Sonar
+                        #####Branche:
+                        Versicherung
+
+                        #####Technologien:
+                        Swing, AWT, iText, JAX-WS, JEE, DbUnit, JUnit, HSQLDB, IBM DB2, WebSphere Application
+                        Server, Maven
+
+                        #####Dauer:
+                        4 Jahre
+
+                        #####Teamgröße:
+                        1 Entwickler
+
+                        #####Projektmethodik:
+                        -
+
+                        #####Tätigkeiten:
+                        Wartung und Weiterentwicklung einer „In-House“ Applikation welche die Call-Center und Innendienstmitarbeiter
+                        bei ihrer Arbeit unterstützt. Die Lösung besteht dabei aus einem Swing/AWT Frontend und einem
+                        WebSphere Backend welches die Services zur Verfügung stellt. Zentraler Bestandteil des Frontends
+                        ist die Integration und Steuerung von Host-Masken mittels IBM Host On-Demand.
+                    </script>
+                </section>
+            </section>
+
+    </div>
+
+</div>
+
+<script src="lib/js/head.min.js"></script>
+<script src="js/reveal.js"></script>
+
+<script>
+
+    // Full list of configuration options available at:
+    // https://github.com/hakimel/reveal.js#configuration
+    Reveal.initialize({
+        controls: true,
+        progress: true,
+        history: false,
+        center: false,
+
+//        width: 1028,
+//        height: 700,
+
+
+        transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+        // Optional reveal.js plugins
+        dependencies: [
+            {
+                src: 'lib/js/classList.js', condition: function () {
+                return !document.body.classList;
+            }
+            },
+            {
+                src: 'plugin/markdown/marked.js', condition: function () {
+                return !!document.querySelector('[data-markdown]');
+            }
+            },
+            {
+                src: 'plugin/markdown/markdown.js', condition: function () {
+                return !!document.querySelector('[data-markdown]');
+            }
+            },
+            {
+                src: 'plugin/highlight/highlight.js', async: true, callback: function () {
+                hljs.initHighlightingOnLoad();
+            }
+            },
+            {src: 'plugin/zoom-js/zoom.js', async: true},
+            {src: 'plugin/notes/notes.js', async: true}
+        ]
+    });
+
+</script>
+
+</body>
+</html>

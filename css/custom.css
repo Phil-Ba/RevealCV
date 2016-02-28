@@ -1,0 +1,66 @@
+.reveal .small :not(h1):not(h2):not(h3):not(h4):not(strong)  {
+    font-size: 0.6em;
+    line-height: 1.2em;
+}
+
+/*.reveal h1, .reveal h2 {*/
+/*text-transform: none;*/
+/*}*/
+
+.reveal table * {
+    font-size: inherit !important;
+    line-height: inherit !important;
+}
+
+span.spacebot {
+    display: block;
+    padding-bottom: 3%;
+}
+
+.reveal p {
+    margin: 0;
+    text-align: left;
+}
+
+.reveal hr {
+    margin-top: 0;
+}
+
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5 {
+    margin-top: 2%;
+    margin-bottom: 0;
+}
+
+table tr td {
+    border-bottom: 0 !important;
+}
+
+.ausbildung td:nth-child(1) {
+    font-weight: bolder;
+    width: 20%;
+}
+
+.ausbildung td:nth-child(2) {
+    font-style: italic;
+    width: 55%;
+}
+
+.ausbildung td:nth-child(3) {
+    width: 25%;
+}
+
+.sprache {
+    width: 100%;
+}
+
+.sprache td:nth-child(1) {
+    width: 20%;
+}
+
+.sprache td:nth-child(2) {
+    width: 80%;
+}

@@ -17,6 +17,10 @@ span.spacebot {
     padding-bottom: 3%;
 }
 
+.reveal .front p{
+    margin: 5px 0;
+}
+
 .reveal p {
     margin: 0;
     text-align: left;

@@ -1,15 +1,10 @@
-.reveal .small :not(h1):not(h2):not(h3):not(h4):not(strong)  {
-    font-size: 0.6em;
-    line-height: 1.2em;
+.reveal {
+    font-size: 1.4em;
 }
 
-/*.reveal h1, .reveal h2 {*/
-/*text-transform: none;*/
-/*}*/
-
 .reveal table * {
-    font-size: inherit !important;
-    line-height: inherit !important;
+    font-size: 18pt;
+    line-height: 1.2em;
 }
 
 span.spacebot {
@@ -17,7 +12,8 @@ span.spacebot {
     padding-bottom: 3%;
 }
 
-.reveal .front p{
+.reveal .front p {
+    font-size: 1.8em;
     margin: 5px 0;
 }
 
